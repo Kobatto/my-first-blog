@@ -25,7 +25,7 @@ SECRET_KEY = 'wkha!vhlrm)z3v-s9hlurof3so1#v(7xk*fz%p15yl-o5oc0pi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'kobatto.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -121,7 +121,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-ALLOWED_HOSTS = ['192.168.33.10']
+ALLOWED_HOSTS = ['*']
 
 MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
